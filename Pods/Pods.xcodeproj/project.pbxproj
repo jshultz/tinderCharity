@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190DF879BA0BC1AAD53EAFA82786BF7B /* Pods-tinderCharity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F02C73774A224ACCB0E160ADE5B229D0 /* Pods-tinderCharity-dummy.m */; };
+		19EE21561281E5F5C0B5A85CFDC1A411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CD87C04AB8A496F7F46AC95AE322EE /* Foundation.framework */; };
+		63F9DD2AA3604D315E3486CB243F6A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CD87C04AB8A496F7F46AC95AE322EE /* Foundation.framework */; };
+		7CF53F35E5ECC88108B8E1BC53091EB3 /* Pods-tinderCharityTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A014AC2332E3077BE141F1D834010F /* Pods-tinderCharityTests-dummy.m */; };
+		B991A49F4C12A4F8462C02B69D83DB11 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F544E664EA23C82471AAB47D479D781B /* Pods-dummy.m */; };
+		C3388101B96354F2F203376C012EF987 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CD87C04AB8A496F7F46AC95AE322EE /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03CA4127F909EFB0DD58B469AC228056 /* libPods-tinderCharityTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tinderCharityTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AF56F95DFBE57476F5D02EB2393BBE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		2C1BD334131D158EE71DA420B30A302B /* libPods-tinderCharity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tinderCharity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A27670948DCEC7FC5A375ED802B391 /* Pods-tinderCharityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinderCharityTests.release.xcconfig"; sourceTree = "<group>"; };
+		54F4D00707B9BC8CC3D977AFA7B9230A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		5D407D44FE473F932456CC5D6C3D9DD6 /* Pods-tinderCharityTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tinderCharityTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E53C8EF49A4C1E615FFE05F11382CEB /* Pods-tinderCharity-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tinderCharity-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6181ABE6A1E23D0AA8FC0C77CB62F40F /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6554C531405E016A16F008C6437B03AD /* Pods-tinderCharityTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tinderCharityTests-resources.sh"; sourceTree = "<group>"; };
+		67F27694266F35A2313CD6FEDB3B699D /* Pods-tinderCharity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinderCharity.debug.xcconfig"; sourceTree = "<group>"; };
+		69FF99C9B661EE32275E4015E9C7DADC /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		75A014AC2332E3077BE141F1D834010F /* Pods-tinderCharityTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tinderCharityTests-dummy.m"; sourceTree = "<group>"; };
+		9998A4876CFFDFA5808EBA460DF54F96 /* Pods-tinderCharityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinderCharityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A44E801D1EAE0592949F72DC241A9B61 /* Pods-tinderCharity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinderCharity.release.xcconfig"; sourceTree = "<group>"; };
+		AEEDA5F6291892906F3CBBF39B8BC98F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CD87C04AB8A496F7F46AC95AE322EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFF572590DB04D7FBE285EDC25BDE63C /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		C8A4AF92EEB549D04807234750D3F362 /* Pods-tinderCharityTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tinderCharityTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE135DAAB556B216887FEE7FB105DB45 /* Pods-tinderCharity-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tinderCharity-resources.sh"; sourceTree = "<group>"; };
+		F02C73774A224ACCB0E160ADE5B229D0 /* Pods-tinderCharity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tinderCharity-dummy.m"; sourceTree = "<group>"; };
+		F544E664EA23C82471AAB47D479D781B /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		FA697DD095556889D7DB47535B03A57E /* Pods-tinderCharity-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tinderCharity-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17DCD4B3B45181E93EECB37BEA47A881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F9DD2AA3604D315E3486CB243F6A32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C28F5043C364D4FD6B19EAB27058343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3388101B96354F2F203376C012EF987 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E78C4AC537A1782BCFD134B2B8940E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EE21561281E5F5C0B5A85CFDC1A411 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50FA4E835D275281C3C4292C4F15CA02 /* Pods-tinderCharity */ = {
+			isa = PBXGroup;
+			children = (
+				5E53C8EF49A4C1E615FFE05F11382CEB /* Pods-tinderCharity-acknowledgements.markdown */,
+				FA697DD095556889D7DB47535B03A57E /* Pods-tinderCharity-acknowledgements.plist */,
+				F02C73774A224ACCB0E160ADE5B229D0 /* Pods-tinderCharity-dummy.m */,
+				EE135DAAB556B216887FEE7FB105DB45 /* Pods-tinderCharity-resources.sh */,
+				67F27694266F35A2313CD6FEDB3B699D /* Pods-tinderCharity.debug.xcconfig */,
+				A44E801D1EAE0592949F72DC241A9B61 /* Pods-tinderCharity.release.xcconfig */,
+			);
+			name = "Pods-tinderCharity";
+			path = "Target Support Files/Pods-tinderCharity";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B7CD87C04AB8A496F7F46AC95AE322EE /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D844159284E9E994EDE0118DB657F05 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		697D3250DC7562D6086214461E83B96F /* Pods-tinderCharityTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4AF92EEB549D04807234750D3F362 /* Pods-tinderCharityTests-acknowledgements.markdown */,
+				5D407D44FE473F932456CC5D6C3D9DD6 /* Pods-tinderCharityTests-acknowledgements.plist */,
+				75A014AC2332E3077BE141F1D834010F /* Pods-tinderCharityTests-dummy.m */,
+				6554C531405E016A16F008C6437B03AD /* Pods-tinderCharityTests-resources.sh */,
+				9998A4876CFFDFA5808EBA460DF54F96 /* Pods-tinderCharityTests.debug.xcconfig */,
+				51A27670948DCEC7FC5A375ED802B391 /* Pods-tinderCharityTests.release.xcconfig */,
+			);
+			name = "Pods-tinderCharityTests";
+			path = "Target Support Files/Pods-tinderCharityTests";
+			sourceTree = "<group>";
+		};
+		7B47AEF9574D37A2B766E6A2C0CEDECC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5AA4EB50B7286C3848947396C1D6959 /* Pods */,
+				50FA4E835D275281C3C4292C4F15CA02 /* Pods-tinderCharity */,
+				697D3250DC7562D6086214461E83B96F /* Pods-tinderCharityTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B2AA6FC8E8E8924978848521E67A3B1A /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				7B47AEF9574D37A2B766E6A2C0CEDECC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B2AA6FC8E8E8924978848521E67A3B1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D844159284E9E994EDE0118DB657F05 /* Firebase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5AA4EB50B7286C3848947396C1D6959 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6181ABE6A1E23D0AA8FC0C77CB62F40F /* Pods-acknowledgements.markdown */,
+				69FF99C9B661EE32275E4015E9C7DADC /* Pods-acknowledgements.plist */,
+				F544E664EA23C82471AAB47D479D781B /* Pods-dummy.m */,
+				BFF572590DB04D7FBE285EDC25BDE63C /* Pods-resources.sh */,
+				24AF56F95DFBE57476F5D02EB2393BBE /* Pods.debug.xcconfig */,
+				54F4D00707B9BC8CC3D977AFA7B9230A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEEDA5F6291892906F3CBBF39B8BC98F /* libPods.a */,
+				2C1BD334131D158EE71DA420B30A302B /* libPods-tinderCharity.a */,
+				03CA4127F909EFB0DD58B469AC228056 /* libPods-tinderCharityTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1469924FC52F60B0068FA24EEFCB3EFC /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C358AA8BB91700063133597D41C4E0E /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				60DB2522D6809309FA2F3B04848E7536 /* Sources */,
+				2E78C4AC537A1782BCFD134B2B8940E0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = AEEDA5F6291892906F3CBBF39B8BC98F /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7F54225F0D12BE32FE2A44128D0D0B29 /* Pods-tinderCharity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C81BC303C84D028EF1664BC36DBFBEDF /* Build configuration list for PBXNativeTarget "Pods-tinderCharity" */;
+			buildPhases = (
+				1FB0B3121CEE39D9E791FD10299EC194 /* Sources */,
+				1C28F5043C364D4FD6B19EAB27058343 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-tinderCharity";
+			productName = "Pods-tinderCharity";
+			productReference = 2C1BD334131D158EE71DA420B30A302B /* libPods-tinderCharity.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F141D7E226AD2656999839EB98A401C0 /* Pods-tinderCharityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 764A18059EE28DA67CA2F42FF7E86AD0 /* Build configuration list for PBXNativeTarget "Pods-tinderCharityTests" */;
+			buildPhases = (
+				B851FF8A9EDDA193A12E6113C942FA1F /* Sources */,
+				17DCD4B3B45181E93EECB37BEA47A881 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-tinderCharityTests";
+			productName = "Pods-tinderCharityTests";
+			productReference = 03CA4127F909EFB0DD58B469AC228056 /* libPods-tinderCharityTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1469924FC52F60B0068FA24EEFCB3EFC /* Pods */,
+				7F54225F0D12BE32FE2A44128D0D0B29 /* Pods-tinderCharity */,
+				F141D7E226AD2656999839EB98A401C0 /* Pods-tinderCharityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FB0B3121CEE39D9E791FD10299EC194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190DF879BA0BC1AAD53EAFA82786BF7B /* Pods-tinderCharity-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DB2522D6809309FA2F3B04848E7536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B991A49F4C12A4F8462C02B69D83DB11 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B851FF8A9EDDA193A12E6113C942FA1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF53F35E5ECC88108B8E1BC53091EB3 /* Pods-tinderCharityTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07B8A63BE4E3B14D417C9DBAEF92DAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F27694266F35A2313CD6FEDB3B699D /* Pods-tinderCharity.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3654B034AE0B9DCEAFF47E81A8514565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A44E801D1EAE0592949F72DC241A9B61 /* Pods-tinderCharity.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F430D6983B39BE4ED03EEE16760BF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24AF56F95DFBE57476F5D02EB2393BBE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		618404E01CDA45E66B6B63B3EE6D7740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A27670948DCEC7FC5A375ED802B391 /* Pods-tinderCharityTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		921A195CDB6B4020E5894DE3706E2988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9998A4876CFFDFA5808EBA460DF54F96 /* Pods-tinderCharityTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9D6267394C7B3BE770B011D3860A3DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F4D00707B9BC8CC3D977AFA7B9230A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C358AA8BB91700063133597D41C4E0E /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F430D6983B39BE4ED03EEE16760BF29 /* Debug */,
+				9D6267394C7B3BE770B011D3860A3DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		764A18059EE28DA67CA2F42FF7E86AD0 /* Build configuration list for PBXNativeTarget "Pods-tinderCharityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921A195CDB6B4020E5894DE3706E2988 /* Debug */,
+				618404E01CDA45E66B6B63B3EE6D7740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C81BC303C84D028EF1664BC36DBFBEDF /* Build configuration list for PBXNativeTarget "Pods-tinderCharity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B8A63BE4E3B14D417C9DBAEF92DAC6 /* Debug */,
+				3654B034AE0B9DCEAFF47E81A8514565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

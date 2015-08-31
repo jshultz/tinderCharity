@@ -14,6 +14,7 @@
 		DEDEB62D1B9488F3006E0D89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDEB62C1B9488F3006E0D89 /* Images.xcassets */; };
 		DEDEB6301B9488F3006E0D89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEDEB62E1B9488F3006E0D89 /* LaunchScreen.xib */; };
 		DEDEB63C1B9488F3006E0D89 /* tinderCharityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEB63B1B9488F3006E0D89 /* tinderCharityTests.swift */; };
+		F1BD9E356CA6C1BA2BB345A0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C525A00FC1AAE3A74ECF04EC /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39646FAF17847CE1A00F03C6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C525A00FC1AAE3A74ECF04EC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDEB61E1B9488F3006E0D89 /* tinderCharity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinderCharity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDEB6221B9488F3006E0D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEDEB6231B9488F3006E0D89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 		DEDEB6351B9488F3006E0D89 /* tinderCharityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinderCharityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDEB63A1B9488F3006E0D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEDEB63B1B9488F3006E0D89 /* tinderCharityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinderCharityTests.swift; sourceTree = "<group>"; };
+		DFA198F0A33B62CD3E5DAFC9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BD9E356CA6C1BA2BB345A0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +63,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1235721B13658E93DD7D42A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFA198F0A33B62CD3E5DAFC9 /* Pods.debug.xcconfig */,
+				39646FAF17847CE1A00F03C6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3A98EB9E2D6AB38A0AF114B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C525A00FC1AAE3A74ECF04EC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DEDEB6151B9488F3006E0D89 = {
 			isa = PBXGroup;
 			children = (
 				DEDEB6201B9488F3006E0D89 /* tinderCharity */,
 				DEDEB6381B9488F3006E0D89 /* tinderCharityTests */,
 				DEDEB61F1B9488F3006E0D89 /* Products */,
+				1235721B13658E93DD7D42A2 /* Pods */,
+				C3A98EB9E2D6AB38A0AF114B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEDEB63F1B9488F3006E0D89 /* Build configuration list for PBXNativeTarget "tinderCharity" */;
 			buildPhases = (
+				00B85285D529E843EB55C4DD /* Check Pods Manifest.lock */,
 				DEDEB61A1B9488F3006E0D89 /* Sources */,
 				DEDEB61B1B9488F3006E0D89 /* Frameworks */,
 				DEDEB61C1B9488F3006E0D89 /* Resources */,
+				29893954D045A27314903189 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +235,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00B85285D529E843EB55C4DD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29893954D045A27314903189 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DEDEB61A1B9488F3006E0D89 /* Sources */ = {
@@ -344,6 +403,7 @@
 		};
 		DEDEB6401B9488F3006E0D89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA198F0A33B62CD3E5DAFC9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tinderCharity/Info.plist;
@@ -354,6 +414,7 @@
 		};
 		DEDEB6411B9488F3006E0D89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39646FAF17847CE1A00F03C6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tinderCharity/Info.plist;
@@ -415,6 +476,7 @@
 				DEDEB6411B9488F3006E0D89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEDEB6421B9488F3006E0D89 /* Build configuration list for PBXNativeTarget "tinderCharityTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +485,7 @@
 				DEDEB6441B9488F3006E0D89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
