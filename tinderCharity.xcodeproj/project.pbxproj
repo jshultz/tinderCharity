@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEDEB6241B9488F3006E0D89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEB6231B9488F3006E0D89 /* AppDelegate.swift */; };
+		DEDEB6261B9488F3006E0D89 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEB6251B9488F3006E0D89 /* FirstViewController.swift */; };
+		DEDEB6281B9488F3006E0D89 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEB6271B9488F3006E0D89 /* SecondViewController.swift */; };
+		DEDEB62B1B9488F3006E0D89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDEB6291B9488F3006E0D89 /* Main.storyboard */; };
+		DEDEB62D1B9488F3006E0D89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDEB62C1B9488F3006E0D89 /* Images.xcassets */; };
+		DEDEB6301B9488F3006E0D89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEDEB62E1B9488F3006E0D89 /* LaunchScreen.xib */; };
+		DEDEB63C1B9488F3006E0D89 /* tinderCharityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEB63B1B9488F3006E0D89 /* tinderCharityTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEDEB6361B9488F3006E0D89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDEB6161B9488F3006E0D89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDEB61D1B9488F3006E0D89;
+			remoteInfo = tinderCharity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEDEB61E1B9488F3006E0D89 /* tinderCharity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinderCharity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDEB6221B9488F3006E0D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDEB6231B9488F3006E0D89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEDEB6251B9488F3006E0D89 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DEDEB6271B9488F3006E0D89 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DEDEB62A1B9488F3006E0D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEDEB62C1B9488F3006E0D89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEDEB62F1B9488F3006E0D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DEDEB6351B9488F3006E0D89 /* tinderCharityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinderCharityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDEB63A1B9488F3006E0D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDEB63B1B9488F3006E0D89 /* tinderCharityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinderCharityTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEDEB61B1B9488F3006E0D89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDEB6321B9488F3006E0D89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEDEB6151B9488F3006E0D89 = {
+			isa = PBXGroup;
+			children = (
+				DEDEB6201B9488F3006E0D89 /* tinderCharity */,
+				DEDEB6381B9488F3006E0D89 /* tinderCharityTests */,
+				DEDEB61F1B9488F3006E0D89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEDEB61F1B9488F3006E0D89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEDEB61E1B9488F3006E0D89 /* tinderCharity.app */,
+				DEDEB6351B9488F3006E0D89 /* tinderCharityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEDEB6201B9488F3006E0D89 /* tinderCharity */ = {
+			isa = PBXGroup;
+			children = (
+				DEDEB6231B9488F3006E0D89 /* AppDelegate.swift */,
+				DEDEB6251B9488F3006E0D89 /* FirstViewController.swift */,
+				DEDEB6271B9488F3006E0D89 /* SecondViewController.swift */,
+				DEDEB6291B9488F3006E0D89 /* Main.storyboard */,
+				DEDEB62C1B9488F3006E0D89 /* Images.xcassets */,
+				DEDEB62E1B9488F3006E0D89 /* LaunchScreen.xib */,
+				DEDEB6211B9488F3006E0D89 /* Supporting Files */,
+			);
+			path = tinderCharity;
+			sourceTree = "<group>";
+		};
+		DEDEB6211B9488F3006E0D89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEDEB6221B9488F3006E0D89 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEDEB6381B9488F3006E0D89 /* tinderCharityTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEDEB63B1B9488F3006E0D89 /* tinderCharityTests.swift */,
+				DEDEB6391B9488F3006E0D89 /* Supporting Files */,
+			);
+			path = tinderCharityTests;
+			sourceTree = "<group>";
+		};
+		DEDEB6391B9488F3006E0D89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEDEB63A1B9488F3006E0D89 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEDEB61D1B9488F3006E0D89 /* tinderCharity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDEB63F1B9488F3006E0D89 /* Build configuration list for PBXNativeTarget "tinderCharity" */;
+			buildPhases = (
+				DEDEB61A1B9488F3006E0D89 /* Sources */,
+				DEDEB61B1B9488F3006E0D89 /* Frameworks */,
+				DEDEB61C1B9488F3006E0D89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tinderCharity;
+			productName = tinderCharity;
+			productReference = DEDEB61E1B9488F3006E0D89 /* tinderCharity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEDEB6341B9488F3006E0D89 /* tinderCharityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDEB6421B9488F3006E0D89 /* Build configuration list for PBXNativeTarget "tinderCharityTests" */;
+			buildPhases = (
+				DEDEB6311B9488F3006E0D89 /* Sources */,
+				DEDEB6321B9488F3006E0D89 /* Frameworks */,
+				DEDEB6331B9488F3006E0D89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEDEB6371B9488F3006E0D89 /* PBXTargetDependency */,
+			);
+			name = tinderCharityTests;
+			productName = tinderCharityTests;
+			productReference = DEDEB6351B9488F3006E0D89 /* tinderCharityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEDEB6161B9488F3006E0D89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Jason Shultz";
+				TargetAttributes = {
+					DEDEB61D1B9488F3006E0D89 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DEDEB6341B9488F3006E0D89 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DEDEB61D1B9488F3006E0D89;
+					};
+				};
+			};
+			buildConfigurationList = DEDEB6191B9488F3006E0D89 /* Build configuration list for PBXProject "tinderCharity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEDEB6151B9488F3006E0D89;
+			productRefGroup = DEDEB61F1B9488F3006E0D89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEDEB61D1B9488F3006E0D89 /* tinderCharity */,
+				DEDEB6341B9488F3006E0D89 /* tinderCharityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEDEB61C1B9488F3006E0D89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDEB62B1B9488F3006E0D89 /* Main.storyboard in Resources */,
+				DEDEB6301B9488F3006E0D89 /* LaunchScreen.xib in Resources */,
+				DEDEB62D1B9488F3006E0D89 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDEB6331B9488F3006E0D89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEDEB61A1B9488F3006E0D89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDEB6281B9488F3006E0D89 /* SecondViewController.swift in Sources */,
+				DEDEB6241B9488F3006E0D89 /* AppDelegate.swift in Sources */,
+				DEDEB6261B9488F3006E0D89 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDEB6311B9488F3006E0D89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDEB63C1B9488F3006E0D89 /* tinderCharityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEDEB6371B9488F3006E0D89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEDEB61D1B9488F3006E0D89 /* tinderCharity */;
+			targetProxy = DEDEB6361B9488F3006E0D89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEDEB6291B9488F3006E0D89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDEB62A1B9488F3006E0D89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEDEB62E1B9488F3006E0D89 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDEB62F1B9488F3006E0D89 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEDEB63D1B9488F3006E0D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEDEB63E1B9488F3006E0D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEDEB6401B9488F3006E0D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tinderCharity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEDEB6411B9488F3006E0D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tinderCharity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEDEB6431B9488F3006E0D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tinderCharityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tinderCharity.app/tinderCharity";
+			};
+			name = Debug;
+		};
+		DEDEB6441B9488F3006E0D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tinderCharityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tinderCharity.app/tinderCharity";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEDEB6191B9488F3006E0D89 /* Build configuration list for PBXProject "tinderCharity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDEB63D1B9488F3006E0D89 /* Debug */,
+				DEDEB63E1B9488F3006E0D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDEB63F1B9488F3006E0D89 /* Build configuration list for PBXNativeTarget "tinderCharity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDEB6401B9488F3006E0D89 /* Debug */,
+				DEDEB6411B9488F3006E0D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEDEB6421B9488F3006E0D89 /* Build configuration list for PBXNativeTarget "tinderCharityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDEB6431B9488F3006E0D89 /* Debug */,
+				DEDEB6441B9488F3006E0D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEDEB6161B9488F3006E0D89 /* Project object */;
+}
