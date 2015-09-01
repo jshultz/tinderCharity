@@ -17,24 +17,24 @@
 
 /* Begin PBXFileReference section */
 		03CA4127F909EFB0DD58B469AC228056 /* libPods-tinderCharityTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tinderCharityTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24AF56F95DFBE57476F5D02EB2393BBE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		0D8AC8A17FCF5D4A7F2312639C6E3318 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
 		2C1BD334131D158EE71DA420B30A302B /* libPods-tinderCharity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tinderCharity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		51A27670948DCEC7FC5A375ED802B391 /* Pods-tinderCharityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinderCharityTests.release.xcconfig"; sourceTree = "<group>"; };
-		54F4D00707B9BC8CC3D977AFA7B9230A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
 		5D407D44FE473F932456CC5D6C3D9DD6 /* Pods-tinderCharityTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tinderCharityTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5E53C8EF49A4C1E615FFE05F11382CEB /* Pods-tinderCharity-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tinderCharity-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6181ABE6A1E23D0AA8FC0C77CB62F40F /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6554C531405E016A16F008C6437B03AD /* Pods-tinderCharityTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tinderCharityTests-resources.sh"; sourceTree = "<group>"; };
-		67F27694266F35A2313CD6FEDB3B699D /* Pods-tinderCharity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinderCharity.debug.xcconfig"; sourceTree = "<group>"; };
 		69FF99C9B661EE32275E4015E9C7DADC /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
 		75A014AC2332E3077BE141F1D834010F /* Pods-tinderCharityTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tinderCharityTests-dummy.m"; sourceTree = "<group>"; };
-		9998A4876CFFDFA5808EBA460DF54F96 /* Pods-tinderCharityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinderCharityTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A44E801D1EAE0592949F72DC241A9B61 /* Pods-tinderCharity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinderCharity.release.xcconfig"; sourceTree = "<group>"; };
+		79D4F4F2C460FCE1E6170B866451D2C0 /* Pods-tinderCharity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinderCharity.debug.xcconfig"; sourceTree = "<group>"; };
+		8BE062C7B0AF950009805ADB139CD52A /* Pods-tinderCharity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinderCharity.release.xcconfig"; sourceTree = "<group>"; };
 		AEEDA5F6291892906F3CBBF39B8BC98F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7CD87C04AB8A496F7F46AC95AE322EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BFF572590DB04D7FBE285EDC25BDE63C /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
 		C8A4AF92EEB549D04807234750D3F362 /* Pods-tinderCharityTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tinderCharityTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DAE7BA109BC4C07B304944D80197AA7E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		E68E22B077AE631E6CE0D6E099062C75 /* Pods-tinderCharityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinderCharityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E97B842682326C3D4587E74009D2B3F5 /* Pods-tinderCharityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinderCharityTests.release.xcconfig"; sourceTree = "<group>"; };
 		EE135DAAB556B216887FEE7FB105DB45 /* Pods-tinderCharity-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tinderCharity-resources.sh"; sourceTree = "<group>"; };
 		F02C73774A224ACCB0E160ADE5B229D0 /* Pods-tinderCharity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tinderCharity-dummy.m"; sourceTree = "<group>"; };
 		F544E664EA23C82471AAB47D479D781B /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
@@ -76,8 +76,8 @@
 				FA697DD095556889D7DB47535B03A57E /* Pods-tinderCharity-acknowledgements.plist */,
 				F02C73774A224ACCB0E160ADE5B229D0 /* Pods-tinderCharity-dummy.m */,
 				EE135DAAB556B216887FEE7FB105DB45 /* Pods-tinderCharity-resources.sh */,
-				67F27694266F35A2313CD6FEDB3B699D /* Pods-tinderCharity.debug.xcconfig */,
-				A44E801D1EAE0592949F72DC241A9B61 /* Pods-tinderCharity.release.xcconfig */,
+				79D4F4F2C460FCE1E6170B866451D2C0 /* Pods-tinderCharity.debug.xcconfig */,
+				8BE062C7B0AF950009805ADB139CD52A /* Pods-tinderCharity.release.xcconfig */,
 			);
 			name = "Pods-tinderCharity";
 			path = "Target Support Files/Pods-tinderCharity";
@@ -105,8 +105,8 @@
 				5D407D44FE473F932456CC5D6C3D9DD6 /* Pods-tinderCharityTests-acknowledgements.plist */,
 				75A014AC2332E3077BE141F1D834010F /* Pods-tinderCharityTests-dummy.m */,
 				6554C531405E016A16F008C6437B03AD /* Pods-tinderCharityTests-resources.sh */,
-				9998A4876CFFDFA5808EBA460DF54F96 /* Pods-tinderCharityTests.debug.xcconfig */,
-				51A27670948DCEC7FC5A375ED802B391 /* Pods-tinderCharityTests.release.xcconfig */,
+				E68E22B077AE631E6CE0D6E099062C75 /* Pods-tinderCharityTests.debug.xcconfig */,
+				E97B842682326C3D4587E74009D2B3F5 /* Pods-tinderCharityTests.release.xcconfig */,
 			);
 			name = "Pods-tinderCharityTests";
 			path = "Target Support Files/Pods-tinderCharityTests";
@@ -148,8 +148,8 @@
 				69FF99C9B661EE32275E4015E9C7DADC /* Pods-acknowledgements.plist */,
 				F544E664EA23C82471AAB47D479D781B /* Pods-dummy.m */,
 				BFF572590DB04D7FBE285EDC25BDE63C /* Pods-resources.sh */,
-				24AF56F95DFBE57476F5D02EB2393BBE /* Pods.debug.xcconfig */,
-				54F4D00707B9BC8CC3D977AFA7B9230A /* Pods.release.xcconfig */,
+				0D8AC8A17FCF5D4A7F2312639C6E3318 /* Pods.debug.xcconfig */,
+				DAE7BA109BC4C07B304944D80197AA7E /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
@@ -280,12 +280,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		07B8A63BE4E3B14D417C9DBAEF92DAC6 /* Debug */ = {
+		562981BE4BA7AD22269BEEF8A20B95EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67F27694266F35A2313CD6FEDB3B699D /* Pods-tinderCharity.debug.xcconfig */;
+			baseConfigurationReference = 0D8AC8A17FCF5D4A7F2312639C6E3318 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -296,121 +296,7 @@
 			};
 			name = Debug;
 		};
-		3654B034AE0B9DCEAFF47E81A8514565 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A44E801D1EAE0592949F72DC241A9B61 /* Pods-tinderCharity.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		5F430D6983B39BE4ED03EEE16760BF29 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24AF56F95DFBE57476F5D02EB2393BBE /* Pods.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		618404E01CDA45E66B6B63B3EE6D7740 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51A27670948DCEC7FC5A375ED802B391 /* Pods-tinderCharityTests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		921A195CDB6B4020E5894DE3706E2988 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9998A4876CFFDFA5808EBA460DF54F96 /* Pods-tinderCharityTests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		9D6267394C7B3BE770B011D3860A3DFD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54F4D00707B9BC8CC3D977AFA7B9230A /* Pods.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -442,10 +328,124 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		879687566179F2319FABD0A41AD81D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE7BA109BC4C07B304944D80197AA7E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A74AFFE58AB5DF520D3C9DAF8F257CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE062C7B0AF950009805ADB139CD52A /* Pods-tinderCharity.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BB74CC4BEFB2C74987C23F87F2279732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97B842682326C3D4587E74009D2B3F5 /* Pods-tinderCharityTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EA05FB9E04746C4EB1B468B6138223CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68E22B077AE631E6CE0D6E099062C75 /* Pods-tinderCharityTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FAE36D5F3E8C382404823C83846C40AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D4F4F2C460FCE1E6170B866451D2C0 /* Pods-tinderCharity.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -455,8 +455,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
-				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+				6569F07DC21AD8B72752685013E3D9D8 /* Debug */,
+				A14E2444F162A20E3776820E0ADFFB52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -464,8 +464,8 @@
 		5C358AA8BB91700063133597D41C4E0E /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F430D6983B39BE4ED03EEE16760BF29 /* Debug */,
-				9D6267394C7B3BE770B011D3860A3DFD /* Release */,
+				562981BE4BA7AD22269BEEF8A20B95EB /* Debug */,
+				879687566179F2319FABD0A41AD81D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -473,8 +473,8 @@
 		764A18059EE28DA67CA2F42FF7E86AD0 /* Build configuration list for PBXNativeTarget "Pods-tinderCharityTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				921A195CDB6B4020E5894DE3706E2988 /* Debug */,
-				618404E01CDA45E66B6B63B3EE6D7740 /* Release */,
+				EA05FB9E04746C4EB1B468B6138223CE /* Debug */,
+				BB74CC4BEFB2C74987C23F87F2279732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -482,8 +482,8 @@
 		C81BC303C84D028EF1664BC36DBFBEDF /* Build configuration list for PBXNativeTarget "Pods-tinderCharity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07B8A63BE4E3B14D417C9DBAEF92DAC6 /* Debug */,
-				3654B034AE0B9DCEAFF47E81A8514565 /* Release */,
+				FAE36D5F3E8C382404823C83846C40AC /* Debug */,
+				A74AFFE58AB5DF520D3C9DAF8F257CFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
